@@ -22,7 +22,7 @@ function CountryCard({ countries, fullCountries }) {
                 alt='country flag'
                 className='h-40 bg-cover max-sm:w-96 w-72'
               />
-              <div className='h-40 p-4 bg-white dark:text-white dark:bg-darkBlue'>
+              <div className='h-40 p-4 bg-white max-sm:w-96 w-72 dark:text-white dark:bg-darkBlue'>
                 <h3 className='mb-3 text-xl font-bold'>
                   {country.name.common}
                 </h3>

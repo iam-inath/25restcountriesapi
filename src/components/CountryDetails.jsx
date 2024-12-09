@@ -24,11 +24,11 @@ function CountryDetails() {
   }
 
   return (
-    <div className='min-h-screen pt-2 pb-10 mt-20 dark:text-white bg-veryLightGray padding-x dark:bg-veryDarkBlueBg'>
+    <div className='min-h-screen pt-2 pb-10 mt-10 dark:text-white bg-veryLightGray padding-x dark:bg-veryDarkBlueBg'>
       <div id='details' className='min-h-full'>
         <Link
           to='/'
-          className='flex items-center justify-start gap-2 px-3 py-1 mt-20 mb-20 text-center bg-white border rounded dark:text-white dark:border-none dark:bg-darkBlue w-28 shadow-boxShadowThree'
+          className='flex items-center justify-start gap-2 px-3 py-1 mt-20 mb-12 text-center bg-white border rounded dark:text-white dark:border-none dark:bg-darkBlue w-28 shadow-boxShadowThree'
         >
           <IoMdArrowBack /> Back
         </Link>
