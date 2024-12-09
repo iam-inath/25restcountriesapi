@@ -9,7 +9,7 @@ function CountryList() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    fetch('https://restcountries.com/v3.1/all')
+    fetch('https://restcountries.com/v3.1/all', { mode: 'cors' })
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok')
