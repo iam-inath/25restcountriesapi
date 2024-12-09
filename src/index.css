@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html,
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+  .textarea,
+  .input {
+    @apply w-auto h-12 px-3 m-2 text-black border border-gray-300 rounded-lg cursor-pointer focus:font-semibold focus:border-blue-500 focus:ring-0 placeholder:font-semibold focus:outline-none md:w-36;
+  }
+  .label {
+    @apply block text-sm font-medium text-gray-700;
+  }
+  .card {
+    @apply p-6 bg-white rounded-lg;
+  }
+  .list {
+    @apply pl-5 space-y-2;
+  }
+  .button {
+    @apply px-4 py-2 text-sm font-semibold text-white bg-blue-500 rounded hover:bg-blue-700;
+  }
+  .button-outline {
+    @apply px-4 py-2 font-semibold text-blue-700 bg-transparent border border-blue-500 rounded hover:bg-blue-500 hover:text-white hover:border-transparent;
+  }
+}
+
+@layer utilities {
+  .hidden {
+    display: none;
+  }
+  .padding {
+    @apply px-8 py-12 sm:px-16 sm:py-24;
+  }
+
+  .padding-x {
+    @apply px-8 sm:px-16;
+  }
+
+  .padding-y {
+    @apply py-12 sm:py-24;
+  }
+
+  .padding-l {
+    @apply pl-8 sm:pl-16;
+  }
+
+  .padding-r {
+    @apply pr-8 sm:pr-16;
+  }
+
+  .padding-t {
+    @apply pt-12 sm:pt-24;
+  }
+
+  .padding-b {
+    @apply pb-12 sm:pb-24;
+  }
+
+  .info-text {
+    @apply leading-relaxed max-sm:text-base max-lg:text-lg lg:text-xl font-montserrat text-slate-gray;
+  }
+  .hero-title {
+    @apply mb-4 font-bold leading-normal text-black max-sm:text-5xl max-sm:my-6 max-lg:text-6xl max-lg:my-8 text-7xl font-poppins;
+  }
+  .section-title {
+    @apply text-5xl font-bold leading-normal text-black my-7 max-sm:text-3xl max-sm:my-4 max-lg:text-4xl max-lg:my-6 font-poppins;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "short_name": "REST Countries App - By @katshidev",
+  "name": "REST Country List API",
+  "description": "Explore countries around the world with features like currency conversion, weather information, and local time display, built with React, Tailwind CSS, and multiple APIs.",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "categories": ["education", "productivity", "utilities"]
+}
