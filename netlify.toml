@@ -1,0 +1,4 @@
+build:
+  command: "nvm use 20.0.0 && npm run build"
+  environment:
+    NODE_ENV: "production"
