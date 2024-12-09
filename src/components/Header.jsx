@@ -31,7 +31,7 @@ function Header() {
   return (
     <div className='fixed top-0 z-50 flex flex-wrap items-center justify-between w-full h-20 bg-white dark:bg-veryDarkBlueBg dark:text-white text-veryDarkBlueTxt padding-x dark:shadow-darkShadowThree shadow-lightShadowThree'>
       <div>
-        <h2 className='text-xl font-semibold max-sm:text-lg'>
+        <h2 className='text-2xl font-bold max-sm:text-lg'>
           Where in the world?
         </h2>
       </div>

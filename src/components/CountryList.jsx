@@ -57,6 +57,7 @@ function CountryList() {
           <select
             value={region}
             onChange={handleRegionChange}
+            name={'continent'}
             className='w-full p-3 rounded-md dark:text-white dark:bg-darkBlue'
           >
             <option value='all'>Filter by Region</option>

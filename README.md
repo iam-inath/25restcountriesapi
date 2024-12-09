@@ -48,6 +48,7 @@ These stretch goals provide additional useful information to users, making the a
 ### What I learned
 
 Another fun project to practice React along with API. This one was a bit challenging because API requests had to adapt depending on the user input as well. I used two filtering functions, for inputs and by regions, to make that possible. I used a function to sanitize the inputs to prevent users from exploiting any vulnerability. Routing was achieved with the React Router Dom library, and some hooks it provides (useNavigate, etc.).
+Another challenge was building the app without the Figma files, which makes the site not pixel perfect.
 
 These features required integrating multiple APIs and handling asynchronous data fetching efficiently. They also helped me improve my skills in handling user input and providing a seamless user experience.
 
