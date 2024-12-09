@@ -3,7 +3,6 @@ import { Link, useLocation, useNavigate } from 'react-router-dom'
 import Weather from './Weather'
 import ExchangeRate from './ExchangeRate'
 import LocalTime from './LocalTime'
-import LocalTime from './LocalTime'
 
 function CountryDetails() {
   const location = useLocation()
